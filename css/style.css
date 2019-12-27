@@ -1,0 +1,403 @@
+html {
+  scroll-behavior: smooth; }
+
+body h1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #ffcd38;
+  width: 75px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 2px; }
+
+body h3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #ffcd38;
+  width: 75px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px; }
+
+body .btn {
+  border-radius: 25px;
+  background: white;
+  color: black; }
+
+body .btn:hover {
+  background: #ffcd38;
+  color: black; }
+
+#navSection {
+  box-shadow: 3px 3px 3px #ffcd38;
+  opacity: .9;
+  background: black; }
+  #navSection #navbarNav .nav-link {
+    color: white; }
+  #navSection #navbarNav .nav-link:hover {
+    color: #ffcd38; }
+  #navSection #navbarNav .nav-link.btn {
+    width: 90px;
+    color: black;
+    border-bottom: none; }
+  #navSection #navbarNav .nav-item.btn:hover {
+    color: #ffcd38;
+    border-bottom: none; }
+
+/* -- HOME PAGE -- */
+#homeSection .carousel-item {
+  height: 500px; }
+
+#homeSection .carousel-img-1 {
+  background-image: url(../img/man-holding-teacup-infront-of-laptop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#homeSection .carousel-img-2 {
+  background-image: url(../img/pexels-photo-374720.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#homeSection .carousel-img-3 {
+  background-image: url(../img/background-beverage-breakfast-brown.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#homeSection .btn {
+  width: 150px;
+  background: #ffcd38;
+  border: 2px solid #ffcd38; }
+
+#homeSection .btn:hover {
+  background: white; }
+
+#aboutSection img {
+  border-radius: 25%;
+  box-shadow: -2px -2px 0px 2px #ffcd38; }
+
+#aboutSection .btn {
+  width: 170px;
+  border: 2px solid #ffcd38; }
+
+#aboutSection .btn:nth-child(2) {
+  background: #ffcd38; }
+
+#aboutSection .btn:nth-child(2):hover {
+  background: white; }
+
+#servicesSection .card {
+  transition: all .5s; }
+
+#servicesSection .service-icon {
+  font-size: 35px;
+  color: #ffcd38;
+  transition: all .5s; }
+
+#servicesSection .card:hover {
+  background: #ffcd38; }
+  #servicesSection .card:hover .service-icon {
+    color: white;
+    margin-top: -7px; }
+
+#skillSection .radial-progress circle {
+  stroke-width: 6; }
+
+#skillSection .radial-progress text {
+  fill: black; }
+
+#skillSection .html5 circle {
+  fill: #ff5722;
+  stroke: #fbfbfb; }
+
+#skillSection .css3 circle {
+  fill: #c622ff;
+  stroke: #fbfbfb; }
+
+#skillSection .psd circle {
+  fill: #795548;
+  stroke: #fbfbfb; }
+
+#skillSection .bootstrap4 circle {
+  fill: #ffeb3b;
+  stroke: #fbfbfb; }
+
+#skillSection .jquery circle {
+  fill: #22ff57;
+  stroke: #fbfbfb; }
+
+#skillSection .wordpress circle {
+  fill: #225cff;
+  stroke: #fbfbfb; }
+
+#experienceSection {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block; }
+  #experienceSection i {
+    font-size: 40px; }
+
+#teamSection h3::after {
+  content: "";
+  display: none;
+  height: 3px;
+  background: #ffcd38;
+  width: 75px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px; }
+
+#teamSection img {
+  margin-top: -100px; }
+
+#teamSection .card {
+  background: white;
+  transition: all .7s; }
+  #teamSection .card .fab {
+    font-size: 30px; }
+
+#teamSection .card:hover {
+  background: #ffcd38; }
+  #teamSection .card:hover .fab {
+    color: white; }
+
+#homeinfo .btn {
+  border: 2px solid #ffcd38; }
+
+#homeinfo .btn:hover {
+  background: #ffcd38; }
+
+#icon-boxes h3::after {
+  content: "";
+  display: none;
+  height: 3px;
+  background: #ffcd38;
+  width: 75px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px; }
+
+#icon-boxes .far,
+#icon-boxes .fas,
+#icon-boxes .fab {
+  font-size: 50px; }
+
+#testimonialSection .slick-prev:before,
+#testimonialSection .slick-next:before {
+  color: black; }
+
+#testimonialSection img {
+  border-radius: 25px;
+  box-shadow: -2px -2px 0px 2px #ffcd38; }
+
+/* ----- CONTACT PAGE ----- */
+#contactHeader {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block; }
+
+#contactSection {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block; }
+  #contactSection .contactForm {
+    background: #ffcd38; }
+    #contactSection .contactForm .form-control {
+      border-radius: 20px; }
+    #contactSection .contactForm i {
+      font-size: 50px; }
+    #contactSection .contactForm .btn {
+      background: black;
+      font-weight: 400;
+      width: 150px;
+      border: 2px solid black;
+      color: white; }
+    #contactSection .contactForm .btn:hover {
+      background: #ffcd38;
+      border: 2px solid black;
+      color: black; }
+
+/* -- ABOUT US PAGE -- */
+#about-page-header .dark-overlay {
+  background-image: url(../img/photo-of-people-using-laptop-s-3182759.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/* -- SERVICES PAGE -- */
+#services-page-header .dark-overlay {
+  background-image: url(../img/background-beverage-breakfast-brown-414645.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+#pricingSection .basic {
+  box-shadow: 1px -5px 15px -5px #333; }
+  #pricingSection .basic .btn {
+    background: black;
+    color: white;
+    border: 2px solid black; }
+  #pricingSection .basic .btn:hover {
+    background: white;
+    color: black; }
+
+#pricingSection .proPlan {
+  color: black;
+  box-shadow: 1px -5px 15px -5px #333;
+  z-index: 1;
+  background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%); }
+  #pricingSection .proPlan h1::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: white;
+    width: 75px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 2px; }
+  #pricingSection .proPlan .btn {
+    background: white;
+    color: black;
+    border: 2px solid white; }
+  #pricingSection .proPlan .btn:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid white; }
+
+#pricingSection .premium {
+  box-shadow: 1px -5px 15px -5px #333; }
+  #pricingSection .premium .btn {
+    background: black;
+    color: white;
+    border: 2px solid black; }
+  #pricingSection .premium .btn:hover {
+    background: white;
+    color: black; }
+
+/* -- BLOGS PAGE -- */
+#blog-page-header .dark-overlay {
+  background-image: url(../img/white-ceramic-mug-on-newspaper-2766006.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+#blogSection .btn {
+  border-radius: 4px;
+  background: #ffcd38;
+  color: black;
+  font-weight: 500;
+  border: 2px solid #ffcd38; }
+
+#blogSection .btn:hover {
+  background: white;
+  color: black; }
+
+/* -- REUSABLE COMPONENTS -- */
+.goTop {
+  position: fixed;
+  right: 0px;
+  bottom: 49px;
+  color: white;
+  font-size: 30px; }
+  .goTop i {
+    background: #ffcd38;
+    border-radius: 2px;
+    padding: 0px 5px 0px 5px; }
+
+.goTop:hover {
+  color: white; }
+
+#contactModal h3::after {
+  content: "";
+  display: none;
+  height: 3px;
+  background: #ffcd38;
+  width: 75px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px; }
+
+#contactModal .modal-body {
+  background: #ffcd38;
+  border: none; }
+  #contactModal .modal-body .form-control {
+    border-radius: 20px; }
+  #contactModal .modal-body i {
+    font-size: 50px; }
+  #contactModal .modal-body .btn {
+    background: black;
+    font-weight: 400;
+    width: 150px;
+    border: 2px solid black;
+    color: white; }
+  #contactModal .modal-body .btn:hover {
+    background: #ffcd38;
+    border: 2px solid black;
+    color: black; }
+
+#footerSection .footer-info {
+  border: 0px solid white; }
+
+#footerSection .follow,
+#footerSection .footer-icons {
+  border: 0px solid white; }
+  #footerSection .follow .icons .fab,
+  #footerSection .footer-icons .icons .fab {
+    font-size: 15px;
+    color: white;
+    background: gray;
+    border-radius: 50%;
+    padding: 5px;
+    width: 25px;
+    transition: all .7s; }
+  #footerSection .follow .icons .fab:hover,
+  #footerSection .footer-icons .icons .fab:hover {
+    background: white;
+    color: gray;
+    transform: rotate(360deg); }
+
+#footerSection .footer-links {
+  border: 0px solid white;
+  list-style: none; }
+  #footerSection .footer-links a {
+    text-decoration: none;
+    color: white; }
+
+#footerSection .footer-newsletter input {
+  border: 2px solid #ffcd38;
+  border-radius: 3px;
+  height: 37px; }
+
+#footerSection .footer-newsletter .btn {
+  border-radius: 3px;
+  width: 42px;
+  height: 37px;
+  background: #ffcd38;
+  color: black;
+  border: 2px solid #ffcd38; }
+
+#footerSection .footer-newsletter .btn:hover {
+  background: white;
+  color: black; }
+
+@media (max-width: 576px) {
+  #teamSection .card-body img {
+    margin-top: 0px; } }
+
+@media (max-width: 767px) {
+  #teamSection .card-body img {
+    margin-top: 0px; } }
+
+@media (max-width: 991px) {
+  #teamSection .card-body img {
+    margin-top: 0px; } }
